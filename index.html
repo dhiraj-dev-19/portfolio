@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/css/styles.min.css" />
+  
+  <!-- Favicon Configuration -->
+  <link rel="icon" href="./assets/img/logo.svg" type="image/svg+xml">
+  <link rel="icon" href="./assets/img/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="./assets/img/apple-touch-icon.png">
+  
+  <!-- Primary Meta Tags -->
+  <title>Dhiraj Joshi | IT Student & Full Stack Developer</title>
+  <meta name="title" content="Dhiraj Joshi | IT Student & Full Stack Developer" />
+  <meta name="description" content="IT Student with a diploma in Computer Technology. Passionate about frontend and backend development with skills in multiple programming languages." />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourportfolio.com/" />
+  <meta property="og:title" content="Dhiraj Joshi | IT Student & Full Stack Developer" />
+  <meta property="og:description" content="IT Student with a diploma in Computer Technology. Passionate about frontend and backend development with skills in multiple programming languages." />
+  <meta property="og:image" content="/assets/img/seo-img.png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://yourportfolio.com/" />
+  <meta property="twitter:title" content="Dhiraj Joshi | IT Student & Full Stack Developer" />
+  <meta property="twitter:description" content="IT Student with a diploma in Computer Technology. Passionate about frontend and backend development with skills in multiple programming languages." />
+  <meta property="twitter:image" content="https://yourportfolio.com/assets/img/seo-img.png" />
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+</head>
+
+<body class="body-wrap">
+  <!-- Intro Animation -->
+  <div class="intro">
+    <div class="intro-text">
+      <h2 class="hide"><span class="text">Building digital</span></h2>
+      <h2 class="hide"><span class="text">experiences with</span></h2>
+      <h2 class="hide"><span class="text">passion</span></h2>
+    </div>
+    <button class="intro-btn" onclick="fadeOut()">EXPLORE</button>
+  </div>
+  <div class="slider"></div>
+  <div class="slider-2"></div>
+
+  <!-- Custom Cursor -->
+  <div class="cursor-effect"></div>
+
+  <!-- Content -->
+  <div class="content">
+    <!-- Header Section -->
+    <header>
+      <div class="effect-wrap">
+        <div class="effect effect-1"></div>
+        <div class="effect effect-2">
+          <div></div><div></div><div></div><div></div><div></div>
+          <div></div><div></div><div></div><div></div><div></div>
+        </div>
+        <div class="effect effect-3"></div>
+      </div>
+      
+      <!-- Updated Logo -->
+      <a href="index.html" class="logo" aria-label="Home">
+        <img src="./assets/img/logo.svg" alt="Dhiraj Joshi Logo" width="50">
+      </a>
+
+      <div class="inner">
+        <span>i</span>
+        <h1>Hello 👋</h1>
+        <p>Welcome to my portfolio! Let's build something amazing together.</p>
+      </div>
+
+      <div class="toggle-container">
+        <input type="checkbox" id="switch" name="theme" />
+        <label class="toggle" for="switch">Toggle</label>
+      </div>
+
+      <div class="landing-text">
+        <h1>Dhiraj Joshi</h1>
+        <p>IT Student | Full Stack Developer | Tech Enthusiast</p>
+      </div>
+    </header>
+
+    <main>
+      <!-- About Section -->
+      <section class="about" id="about">
+        <div class="container">
+          <div class="profile-img">
+            <img src="./assets/img/profile.png" alt="Dhiraj Joshi">
+          </div>
+          <div class="about-content">
+            <div class="about-heading">
+              <h2>About Me</h2>
+            </div>
+            <p>
+              I'm Dhiraj Joshi, an Information Technology student with a diploma in Computer Technology. 
+              Passionate about creating seamless web experiences using modern technologies. 
+              My journey includes developing practical solutions like MealsNow and innovative tools like my Password Manager.
+            </p>
+            <div class="about-cta">
+              <a href="#contact" class="skills-cta">Hire me</a>
+              <span>—</span>
+              <a href="#projects" class="exp-cta">View projects</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section - Now with 4 Projects -->
+      <section id="projects" class="project">
+        <h5>— my recent</h5>
+        <h2>Projects 💻</h2>
+        <div class="project-item-container">
+          <!-- Project 1 -->
+          <div class="project-box">
+            <a href="https://github.com/dhiraj-dev-19/mealsnow" target="_blank" class="project-box__absolute-link"></a>
+            <div class="project-box__link">
+              <a href="https://github.com/dhiraj-dev-19/mealsnow" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+              <a href="#" target="_blank">
+                <ion-icon name="open-outline"></ion-icon>
+              </a>
+            </div>
+            <div class="project-box__content">
+              <h3>MealsNow</h3>
+              <h5>HTML/CSS | JavaScript | PHP | MySQL</h5>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-box">
+            <a href="https://github.com/dhiraj-dev-19/Password-manager-" target="_blank" class="project-box__absolute-link"></a>
+            <div class="project-box__link">
+              <a href="https://github.com/dhiraj-dev-19/Password-manager-" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+              <a href="#" target="_blank">
+                <ion-icon name="open-outline"></ion-icon>
+              </a>
+            </div>
+            <div class="project-box__content">
+              <h3>Password Manager</h3>
+              <h5>HTML/CSS | JavaScript | JSON</h5>
+            </div>
+          </div>
+
+          <!-- NEW Project 3 -->
+          <div class="project-box">
+            <a href="#" target="_blank" class="project-box__absolute-link"></a>
+            <div class="project-box__link">
+              <a href="#" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+              <a href="#" target="_blank">
+                <ion-icon name="open-outline"></ion-icon>
+              </a>
+            </div>
+            <div class="project-box__content">
+              <h3>E-Commerce Store</h3>
+              <h5>React.js | Node.js | MongoDB</h5>
+            </div>
+          </div>
+
+          <!-- NEW Project 4 -->
+          <div class="project-box">
+            <a href="#" target="_blank" class="project-box__absolute-link"></a>
+            <div class="project-box__link">
+              <a href="#" target="_blank">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+              <a href="#" target="_blank">
+                <ion-icon name="open-outline"></ion-icon>
+              </a>
+            </div>
+            <div class="project-box__content">
+              <h3>Task Management App</h3>
+              <h5>Vue.js | Firebase | Tailwind CSS</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section with Enhanced Form -->
+      <section class="contact" id="contact">
+        <div class="contact-title">
+          <h5>— get in touch</h5>
+          <h2>Contact Me</h2>
+        </div>
+        <div class="container">
+          <div class="sub">
+            Have a project in mind or want to collaborate? I'd love to hear from you!
+          </div>
+          <form id="contact-form" name="contact" method="POST" netlify>
+            <input type="hidden" name="form-name" value="contact" />
+          
+            <div class="input-row">
+              <div class="side">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+              </div>
+              <div class="side">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+              </div>
+            </div>
+            <div class="textarea">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" placeholder="Hello Dhiraj, I'd like to discuss..." required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+          </form>
+        
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <hr />
+      <div class="footer-head">
+        <h5>Connect With Me</h5>
+        <div class="link-container">
+          <div class="footer-links">
+            <p><a href="mailto:dhirajjoshi813@gmail.com">dhirajjoshi813@gmail.com</a></p>
+            <p><a href="tel:+917758099725">+91 77580 99725</a></p>
+          </div>
+          <div class="footer-links">
+            <p><a href="https://github.com/dhiraj-dev-19">GitHub</a></p>
+            <p><a href="https://linkedin.com/in/dhiraj-joshi-121197364">LinkedIn</a></p>
+            <p><a href="https://www.instagram.com/_dhirajjjj_19/?next=%2F">Instagram</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copy">© Dhiraj Joshi <span id="year"></span></div>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script src="./assets/js/app.js"></script>
+  <script>
+    // Auto-update copyright year
+    document.getElementById('year').textContent = new Date().getFullYear();
+    
+    // Logo hover effect
+    const logo = document.querySelector('.logo img');
+    if(logo) {
+      logo.addEventListener('mouseenter', () => {
+        logo.style.transform = 'rotate(5deg) scale(1.1)';
+        logo.style.filter = 'drop-shadow(0 0 8px rgba(255, 0, 110, 0.4))';
+      });
+      logo.addEventListener('mouseleave', () => {
+        logo.style.transform = '';
+        logo.style.filter = '';
+      });
+    }
+  </script>
+</body>
+</html>
