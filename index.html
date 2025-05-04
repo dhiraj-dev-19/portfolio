@@ -197,25 +197,29 @@
           <div class="sub">
             Have a project in mind or want to collaborate? I'd love to hear from you!
           </div>
-          <form id="contact-form" name="contact" method="POST" netlify>
-            <input type="hidden" name="form-name" value="contact" />
+          <form name="contact-form" method="POST" data-netlify="true" action="/thank-you">
+            <!-- Netlify hidden input -->
+            <input type="hidden" name="form-name" value="contact-form" />
           
             <div class="input-row">
               <div class="side">
                 <label for="name">Your Name</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required />
               </div>
               <div class="side">
                 <label for="email">Your Email</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required />
               </div>
             </div>
+          
             <div class="textarea">
               <label for="message">Your Message</label>
               <textarea id="message" name="message" placeholder="Hello Dhiraj, I'd like to discuss..." required></textarea>
             </div>
+          
             <button type="submit">Send Message</button>
           </form>
+          
         
         </div>
       </section>
