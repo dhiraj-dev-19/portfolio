@@ -1,6 +1,6 @@
 # premier-portfolio
 
-That's "First portfolio" in French ✨
+That's "First portfolio"  ✨
 
 ## Screenshot 📸
 
@@ -8,7 +8,7 @@ That's "First portfolio" in French ✨
 
 ## Live Site 🚀
 
-[Preview the website here](https://israelmitolu.netlify.app).
+[Preview the website here](https://dhiraj-joshi.netlify.app).
 
 ## Tools 🔨
 
