@@ -125,3 +125,23 @@ document.getElementById('contact-form')?.addEventListener('submit', function(e) 
   
   // Netlify will handle the rest after deployment
 });
+document.addEventListener("DOMContentLoaded", function () {
+  const skillElements = document.querySelectorAll(".skill");
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("fade-in-up");
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    {
+      threshold: 0.2,
+    }
+  );
+
+  skillElements.forEach((el) => observer.observe(el));
+});
+
